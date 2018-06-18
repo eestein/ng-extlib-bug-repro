@@ -1,0 +1,51 @@
+# Consulte http://help.github.com/ignore-files/ para informações sobre arquivos ignorados
+
+# compilados
+/dist
+/library/dist
+/tmp
+/out-tsc
+/src/**/*.js
+/package-lock.json
+
+# dependências
+/node_modules
+/samples/node_modules
+/library/node_modules
+
+# IDEs e editores de texto
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# variados
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+yarn-error.log
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# build
+ng-repro-sdk*.tgz
